@@ -4,10 +4,10 @@ int main()
 int aa,bb,cc;
 scanf("%d%d%d",&aa,&bb,&cc);
 if(aa>bb)
-printf("a is greater");
+printf("%d is greater",aa);
 else if(bb>cc)
-printf("b is greater");
+printf("%d is greater",bb);
 else
-printf("c is greater");
+printf("%d is greater",cc);
 return 0;
 }
