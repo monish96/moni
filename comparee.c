@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-scanf("%d%d%d",&a,&b,&c);
-if(a>b)
+int aa,bb,cc;
+scanf("%d%d%d",&aa,&bb,&cc);
+if(aa>bb)
 printf("a is greater");
-else if(b>c)
+else if(bb>cc)
 printf("b is greater");
 else
 printf("c is greater");
