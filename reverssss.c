@@ -5,7 +5,6 @@ int main()
 {
     char text[100];
     int i,j;
-   
     gets(text);
     strrev(text);
     for(i=0;text[i]!='\0';i++)
